@@ -9,4 +9,10 @@ public interface Functions {
             return x*3;
         }
     };
+
+    class Carro {
+        public void tipoMotor(){
+            System.out.println("Motor de combustion interna");
+        }
+    }
 }
